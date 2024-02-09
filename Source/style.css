@@ -1,0 +1,38 @@
+  html {
+    scroll-behavior: smooth;
+    }
+
+  * {
+    font-family:  cursive; 
+      color: white ;
+    }
+
+    body {
+        background-color: #2F2FA2;
+    }
+
+
+    .navigation-wrapper { 
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    }
+
+    h1{ 
+        text-align: left;
+        padding-left: 2em;
+    }
+
+  nav a {
+    text-decoration: none;
+    }
+
+  .content {   
+    padding: 2em;
+    text-align: center;
+    font-size: xx-large;
+    }
+
+
+
+  
