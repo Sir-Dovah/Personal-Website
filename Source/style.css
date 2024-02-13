@@ -1,4 +1,5 @@
-  html {
+ /* All */
+ html {
     scroll-behavior: smooth;
     }
 
@@ -8,36 +9,57 @@
     }
 
     body {
-        background-color: #2F2FA2;
+      background-color: #2234ae;
+      background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
     }
 
-
+/* header + Home */
     .navigation-wrapper { 
     display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
+    flex-direction:row; 
+    justify-content: space-between;
     }
 
-    h1{ 
-        text-align: left;
-        padding-left: 2em;
+    h1 {
+      font-size: x-large;
     }
 
-  nav a {
-    text-decoration: none;
+    a {
+    text-decoration: none; 
+    margin-left: 5pc; 
     }
 
-  .content {   
-    padding: 2em;
-    text-align: center;
-    font-size: xx-large;
+    nav ol {
+    list-style: none; 
     }
- 
-  .container {
+    
+    nav{  
+      margin-right: auto;
+    }
+
+
+    /* About */
+    .container {
     display: grid;
-    grid-column: 1fr 1fr;
-    grid-row: 1fr;
-   }
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;   
+    }
 
+    .left { 
+    border: 5px solid transparent; 
+    padding: 5pc;
+    margin-right: 3px;
+    }
+
+   .right { 
+    border: 5px solid transparent;
+    padding: 5pc;
+    margin-left: 3px;
+    }
+
+    img {
+    width: 90%;
+    height: auto;
+    }
 
   
