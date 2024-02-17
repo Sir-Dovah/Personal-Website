@@ -4,9 +4,13 @@
     }
 
   * {
-    font-family:  cursive; 
+
+      font-family:  cursive; 
       color: white ;
+      scrollbar-color: transparent;
     }
+
+ 
 
     body {
       background-color: #2234ae;
@@ -17,6 +21,7 @@
       text-align: center;
     }
 /* header + Home */
+  
     #title {   
       margin-left: 20px;
     }
@@ -26,6 +31,14 @@
     flex-direction:row; 
     justify-content: space-between;
     }
+
+    .navtop {
+      position: fixed;
+      top: 0  ;
+      width: 99.3% !important;
+      background-color: #191714;
+      height: 59px  ;
+     }
 
     h1 {
       font-size: x-large;
