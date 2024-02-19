@@ -65,17 +65,17 @@
     grid-template-rows: 1fr;   
     }
 
-    .left { 
+    .about { 
     border: 5px solid transparent; 
     padding: 5pc;
     margin-right: 3px;
     }
 
-   .right { 
+   /* .right { 
     border: 5px solid transparent;
     padding: 5pc;
     margin-left: 3px;
-    }
+    } */
 
     img {
     width: 90%;
@@ -90,25 +90,28 @@
       grid-template-rows: 1fr;   
       }
 
-    .left-1 { 
+    .spacing{ 
       border: 1px solid ; 
       padding: 5pc;
       margin: 10px;
+      
+      opacity: 0;
+
+      filter: blur(5px);
+      transform: translateX(-100%);
+      transition: all 1s   ;
+
     }
     
-    .right-1 { 
-      border: 1px solid ;
-      padding: 5pc;
-      margin: 10px;
+    .show{
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
     }
+
 
     ul {
       line-height: 2.5;
-    }
-
-
-    ul li:hover {
-          
     }
 
 
