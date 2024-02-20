@@ -10,5 +10,5 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const animate_spacing = document.querySelectorAll('.spacing');
+const animate_spacing = document.querySelectorAll('.hidden');
 animate_spacing.forEach((el) => observer.observe(el));
